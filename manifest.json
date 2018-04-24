@@ -1,8 +1,8 @@
 {
     "name": "GeekSul",
     "short_name": "GeekSul",
-    "theme_color": "#2a0044",
-    "background_color": "#2a0044",
+    "theme_color": "#0B0B59",
+    "background_color": "#0B0B59",
     "display": "standalone",
     "start_url": "index.html",
     "icons": [
