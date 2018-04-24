@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GeekSul</title>
+
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">GeekSul</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Camisetas
+                        </a>
+                        <div class="dropdown-menu" style="background-color:#343a40" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" style="color:#6c757d" href="camisetas.html">Masculinas</a>
+                            <a class="dropdown-item" style="color:#6c757d" href="feminina.html">Femininas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Livros
+                        </a>
+                        <div class="dropdown-menu" style="background-color:#343a40" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" style="color:#6c757d" href="mangas.html">Mangas</a>
+                            <a class="dropdown-item" style="color:#6c757d" href="quadrinhos.html">Quadrinhos</a>
+                            <a class="dropdown-item" style="color:#6c757d" href="OutrosLivros.html">Ficção Cientifica, Aventura e Fantasia</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="MeusPedidos.html">Meus pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="atendimento.html">Atendimento</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisa" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">  
+                        <i class="material-icons" style="font-size:26px">search</i>          
+                    </button>
+                </form>
+            </div>
+        </div>
+        <a href="index.html" class="logo"><img src="imagens/logo.ico"  style="position:absolute;left:50%;width:10%;top:1em;height:40%" alt="">
+        </a>
+    </nav>
+    <div class="container">
+            <h1><strong class="center">Dados</strong></h1>
+            <br/>
+            <br/>
+            <br/>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100" style="position:relative;top:0.1em;width:100%;height:70%">
+                <p style="position:absolute; left:48%;font-size:20px;"> <strong>(1)</strong></p>
+                <p style="position:absolute; left:90%;font-size:20px;"> <strong>(2)</strong></p>
+                
+                </div>
+            </div>
+            <br/>     
+        <form id="formExemplo" data-toggle="validator" >		  
+            <div class="form-group">		   
+                <label class="control-label">Email</label>
+                <input id="email" type="text" class="form-control" name="email" placeholder="Dígite seu Email...">		  
+            </div>		  		  
+            <div class="form-group">		    
+                <label class="control-label">Senha</label>		    
+                <input id="password" type="password" class="form-control" name="password" placeholder="Dígite sua senha...">		  
+            </div>		  		  
+            <div class="form-group">		    
+                <label class="control-label">Confirme sua senha</label>		    
+                <input type="password" class="form-control" name="password" placeholder="Dígite sua senha para confirmar...">		  
+            </div>		  		  
+            <div class="form-group">		    
+                <label class="control-label">CEP</label>
+                <input type="number" name="cep" class="form-control" id="inputcep" placeholder="00000.000  ">		  
+            </div>
+            <div class="form-group">		    
+                <label class="control-label">CPF</label>
+                <input type="number" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+            </div>
+            <div class="form-group">		    
+                <label class="control-label">Gênero</label>	
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Feminino
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Masculino
+                </label>	    
+            </div>	
+            <a class="btn btn-primary" href="#" style="color:white">Concluir</a>
+        </form>
+    </div>
+    <br/>
+    <br/>
+    <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+            </div>
+            <!-- /.container -->
+    </footer>
+    
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+    
+</html>
